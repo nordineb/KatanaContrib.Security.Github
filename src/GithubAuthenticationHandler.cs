@@ -67,8 +67,8 @@ namespace OwinContrib.Security.Github
                 string tokenRequest = "grant_type=authorization_code" +
                     "&code=" + Uri.EscapeDataString(code) +
                     "&redirect_uri=" + Uri.EscapeDataString(redirectUri) +
-                    "&client_id=" + Uri.EscapeDataString(Options.AppId) +
-                    "&client_secret=" + Uri.EscapeDataString(Options.AppSecret);
+                    "&client_id=" + Uri.EscapeDataString(Options.ClientId) +
+                    "&client_secret=" + Uri.EscapeDataString(Options.ClientSecret);
 
                 //Set accept header to request details as a JSON Object
                 _httpClient.DefaultRequestHeaders.Add("accept", "application/json");
@@ -184,7 +184,7 @@ namespace OwinContrib.Security.Github
                 string authorizationEndpoint =
                     "https://github.com/login/oauth/authorize" +
                         "?response_type=code" +
-                        "&client_id=" + Uri.EscapeDataString(Options.AppId) +
+                        "&client_id=" + Uri.EscapeDataString(Options.ClientId) +
                         "&redirect_uri=" + Uri.EscapeDataString(redirectUri) +
                         "&scope=" + Uri.EscapeDataString(scope) +
                         "&state=" + Uri.EscapeDataString(state);

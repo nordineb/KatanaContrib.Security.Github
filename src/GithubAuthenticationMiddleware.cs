@@ -22,11 +22,11 @@ namespace OwinContrib.Security.Github
              GithubAuthenticationOptions options)
             : base(next, options)
         {
-            if (string.IsNullOrWhiteSpace(Options.AppId))
+            if (string.IsNullOrWhiteSpace(Options.ClientId))
             {
                 throw new ArgumentException(string.Format(CultureInfo.CurrentCulture, "The '{0}' option must be provided.", "AppId"));
             }
-            if (string.IsNullOrWhiteSpace(Options.AppSecret))
+            if (string.IsNullOrWhiteSpace(Options.ClientSecret))
             {
                 throw new ArgumentException(string.Format(CultureInfo.CurrentCulture, "The '{0}' option must be provided.", "AppSecret"));
             }

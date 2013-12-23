@@ -22,15 +22,15 @@ namespace OwinContrib.Security.Github
 
         public static IAppBuilder UseGithubAuthentication(
             this IAppBuilder app,
-            string apiKey,
-            string secretKey)
+            string clientId,
+            string clientSecret)
         {
             return UseGithubAuthentication(
                 app,
                 new GithubAuthenticationOptions
                 {
-                    AppId = apiKey,
-                    AppSecret = secretKey,
+                    ClientId = clientId,
+                    ClientSecret = clientSecret,
                 });
         }
     }

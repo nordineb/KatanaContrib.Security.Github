@@ -17,8 +17,8 @@ namespace OwinContrib.Security.Github
             Scope = new List<string>() { Constants.DefaultScope};
             BackchannelTimeout = TimeSpan.FromSeconds(60);
         }
-        public string AppId { get; set; }
-        public string AppSecret { get; set; }
+        public string ClientId { get; set; }
+        public string ClientSecret { get; set; }
 
 
         public ICertificateValidator BackchannelCertificateValidator { get; set; }
@@ -35,6 +35,6 @@ namespace OwinContrib.Security.Github
         public string SignInAsAuthenticationType { get; set; }
         public IGithubAuthenticationProvider Provider { get; set; }
         public ISecureDataFormat<AuthenticationProperties> StateDataFormat { get; set; }
-        public IList<string> Scope { get; private set; }
+        public IList<string> Scope { get; set; }
     }
 }
