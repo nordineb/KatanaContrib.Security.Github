@@ -4,7 +4,7 @@ using System.Net.Http;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 
-namespace OwinContrib.Security.Github
+namespace KatanaContrib.Security.Github
 {
     public class GithubAuthenticationOptions : AuthenticationOptions
     {

@@ -10,7 +10,7 @@ using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Infrastructure;
 using Newtonsoft.Json.Linq;
 
-namespace OwinContrib.Security.Github
+namespace KatanaContrib.Security.Github
 {
     internal class GithubAuthenticationHandler : AuthenticationHandler<GithubAuthenticationOptions>
     {

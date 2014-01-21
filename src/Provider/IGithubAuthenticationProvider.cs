@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace OwinContrib.Security.Github
+namespace KatanaContrib.Security.Github
 {
     public interface IGithubAuthenticationProvider
     {

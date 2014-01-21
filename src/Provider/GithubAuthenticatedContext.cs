@@ -6,7 +6,7 @@ using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Provider;
 using Newtonsoft.Json.Linq;
 
-namespace OwinContrib.Security.Github
+namespace KatanaContrib.Security.Github
 {
     public class GithubAuthenticatedContext : BaseContext
     {

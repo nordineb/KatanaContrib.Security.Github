@@ -2,7 +2,7 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Provider;
 
-namespace OwinContrib.Security.Github
+namespace KatanaContrib.Security.Github
 {
     public class GithubReturnEndpointContext : ReturnEndpointContext
     {

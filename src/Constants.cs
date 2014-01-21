@@ -1,5 +1,5 @@
 
-namespace OwinContrib.Security.Github
+namespace KatanaContrib.Security.Github
 {
     internal static class Constants
     {

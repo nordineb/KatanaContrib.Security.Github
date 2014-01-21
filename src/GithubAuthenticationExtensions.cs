@@ -1,7 +1,7 @@
 using System;
 using Owin;
 
-namespace OwinContrib.Security.Github
+namespace KatanaContrib.Security.Github
 {
     public static class GithubAuthenticationExtensions
     {

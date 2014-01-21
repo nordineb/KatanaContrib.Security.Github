@@ -7,8 +7,8 @@
     <ProjectGuid>{15A8E9A6-B104-477D-8FE4-D90052FA59C0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OwinContrib.Security.Github</RootNamespace>
-    <AssemblyName>OwinContrib.Security.Github</AssemblyName>
+    <RootNamespace>KatanaContrib.Security.Github</RootNamespace>
+    <AssemblyName>KatanaContrib.Security.Github</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

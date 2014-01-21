@@ -9,7 +9,7 @@ using Microsoft.Owin.Security.DataProtection;
 using Microsoft.Owin.Security.Infrastructure;
 using Owin;
 
-namespace OwinContrib.Security.Github
+namespace KatanaContrib.Security.Github
 {   
     public class GithubAuthenticationMiddleware : AuthenticationMiddleware<GithubAuthenticationOptions>
     {
