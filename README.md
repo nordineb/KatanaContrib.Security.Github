@@ -1,10 +1,10 @@
-OwinContrib.Security.Github
+KatanaContrib.Security.Github
 ===========================
 
 **OwinContrib.Security.Github** provides a owin/[katana](http://katanaproject.codeplex.com/) middleware that supports the LinkedIn authentication flow. 
-In order to add it to your project or solution run the `Install-Package OwinContrib.Security.Github` command from the NuGet Package Manager console in Visual Studio. 
+In order to add it to your project or solution run the `Install-Package KatanaContrib.Security.Github` command from the NuGet Package Manager console in Visual Studio. 
 
-The OwinContrib.Security.Github was designed and implemented similar to [Microsoft.Owin.Security.Facebook](https://www.nuget.org/packages/Microsoft.Owin.Security.Facebook) and [Microsoft.Owin.Security.Twitter](https://www.nuget.org/packages/Microsoft.Owin.Security.Twitter) this allows you to use it the same way as the security middlewares provided by Microsoft.  
+The KatanaContrib.Security.Github was designed and implemented similar to [Microsoft.Owin.Security.Facebook](https://www.nuget.org/packages/Microsoft.Owin.Security.Facebook) and [Microsoft.Owin.Security.Twitter](https://www.nuget.org/packages/Microsoft.Owin.Security.Twitter) this allows you to use it the same way as the security middlewares provided by Microsoft.  
 How to use in MVC5 project: 
 --------
 A couple of actions will need to be done under the App_Start folder in the Startup.Auth.cs file :
