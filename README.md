@@ -1,7 +1,7 @@
 KatanaContrib.Security.Github
 ===========================
 
-**OwinContrib.Security.Github** provides a owin/[katana](http://katanaproject.codeplex.com/) middleware that supports the LinkedIn authentication flow. 
+**KatanaContrib.Security.Github** provides a owin/[katana](http://katanaproject.codeplex.com/) middleware that supports the LinkedIn authentication flow. 
 In order to add it to your project or solution run the `Install-Package KatanaContrib.Security.Github` command from the NuGet Package Manager console in Visual Studio. 
 
 The KatanaContrib.Security.Github was designed and implemented similar to [Microsoft.Owin.Security.Facebook](https://www.nuget.org/packages/Microsoft.Owin.Security.Facebook) and [Microsoft.Owin.Security.Twitter](https://www.nuget.org/packages/Microsoft.Owin.Security.Twitter) this allows you to use it the same way as the security middlewares provided by Microsoft.  
